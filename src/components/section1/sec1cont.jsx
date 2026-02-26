@@ -3,6 +3,7 @@ import Leftcont from './leftcont'
 import Rightcont from './rightcont'
 import FraudAlert from './fraudalert'
 import FraudDistributionChart from './pie'
+import Reasons from './reasons'
 
 const Sec1cont = () => {
   return (
@@ -10,8 +11,12 @@ const Sec1cont = () => {
     <Leftcont/>
 
     <Rightcont/>
+     
     <FraudDistributionChart/>
+   
+  
     <FraudAlert/>
+
     
     
     </div>

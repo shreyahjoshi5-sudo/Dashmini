@@ -14,6 +14,7 @@ const DashboardRightPanel = () => {
     <div className="w-1/2 flex flex-col gap-6 p-6">
       <Card title="Transactions" value="245" />
       <Card title="Balance" value="$12,450.00" />
+      <Card title="Reasons" value="acc"/>
     </div>
   );
 };
