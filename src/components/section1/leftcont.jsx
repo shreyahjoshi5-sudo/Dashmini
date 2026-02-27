@@ -6,7 +6,7 @@ const Leftcont = () => {
     <div className="h-screen bg-white w-24 border-r border-gray-100 flex flex-col items-center py-4 gap-2">
       
       {/* Brand Label */}
-      <div className="px-2 py-4 text-[10px] font-black uppercase text-blue-600">Firm</div>
+      <div className="px-2 py-4 text-[10px] font-black uppercase text-blue-600">MARTIAN Firm</div>
 
       {/* HOME */}
       <div className="flex flex-col items-center justify-center w-full py-3 hover:bg-gray-100 cursor-pointer group">
@@ -21,7 +21,7 @@ const Leftcont = () => {
         <svg className="w-6 h-6 text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
           <path d="M14 21C13.4477 21 13 20.5523 13 20V12C13 11.4477 13.4477 11 14 11H20C20.5523 11 21 11.4477 21 12V20C21 20.5523 20.5523 21 20 21H14ZM4 13C3.44772 13 3 12.5523 3 12V4C3 3.44772 3.44772 3 4 3H10C10.5523 3 11 3.44772 11 4V12C11 12.5523 10.5523 13 10 13H4Z"></path>
         </svg>
-        <span className="text-[10px] font-bold mt-1 text-gray-500 uppercase tracking-wide">Assets</span>
+        <span className="text-[10px] font-bold mt-1 text-gray-500 uppercase tracking-wide">Roles and Permisions</span>
       </div>
 
       {/* ANALYTICS */}
@@ -39,6 +39,9 @@ const Leftcont = () => {
         </svg>
         <span className="text-[10px] font-bold mt-1 text-gray-500 uppercase tracking-wide">Risk</span>
       </div>
+      <div className="flex flex-col items-center justify-center w-1/3 py-3 hover:bg-gray-100 cursor-pointer group">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 14V22H4C4 17.5817 7.58172 14 12 14ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM21 17H22V22H14V17H15V16C15 14.3431 16.3431 13 18 13C19.6569 13 21 14.3431 21 16V17ZM19 17V16C19 15.4477 18.5523 15 18 15C17.4477 15 17 15.4477 17 16V17H19Z"></path></svg>
+      <span className="text-[10px] font-bold mt-1 text-gray-500 uppercase tracking-wide">Admin Settings</span></div>
 
     </div>
   );
