@@ -1,18 +1,27 @@
 import React from 'react'
-import Sec1 from './components/section1/sec1'
-import Sec2 from '../section2/sec2'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Login from './components/section1/login'
 import Navbar from './components/section1/navbar'
 import Sec1cont from './components/section1/sec1cont'
-import FraudAlert from './components/section1/fraudalert'
 
 const App = () => {
   return (
-    <div><Sec1 />
-    
-    
-   
-    </div>
-    
+    <BrowserRouter>
+      <Routes>
+        {/* Route for the Login page */}
+        <Route path="/" element={<Login />} />
+
+        {/* Route for the Dashboard */}
+        <Route 
+          path="/dashboard" 
+          element={
+            <>
+             <Sec1cont/>
+            </>
+          } 
+        />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
