@@ -26,7 +26,7 @@ const Login = () => {
         
         {/* Branding/Header */}
         <div className="text-center mb-10">
-          <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-600 rounded-lg mb-4">
+          <div className="inline-flex items-center justify-center w-12 h-12 bg-blue500 rounded-lg mb-4">
             <span className="text-white font-bold text-xl">$</span>
           </div>
           <h2 className="text-2xl font-bold text-slate-800">FinancePortal</h2>
